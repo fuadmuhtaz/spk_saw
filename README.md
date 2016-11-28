@@ -1,4 +1,4 @@
-# publikasi_karya_ilmiah
+# spk_saw
 Aplikasi SPK dengan Metode SAW
 
 System requirements :
