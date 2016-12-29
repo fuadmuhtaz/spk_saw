@@ -13,5 +13,6 @@ if (!isset($_GET['id'])) {
 
 $req = $dbc->prepare("DELETE FROM pemilihan WHERE id = ?");
 $req->bindParam(1, $_GET['id']);
+$req->execute();
 
 header('Location: laporan.php');
